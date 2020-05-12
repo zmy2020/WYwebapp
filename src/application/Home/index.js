@@ -13,7 +13,9 @@ function Home (props) {
                     <span className='iconfont search'>&#xe62b;</span>
                 </Top>
                 <Tab>
-                    <NavLink to='/recommend' active></NavLink>
+                    <NavLink to='/recommend' active> 推荐 </NavLink>
+                    <NavLink to='/singers' active> 歌手 </NavLink>
+                    <NavLink to='/rank' active> 排行榜 </NavLink>
                 </Tab>
                 {
                     renderRoutes(route.routes)

@@ -10,9 +10,14 @@
 > + react-router
 > + react-router-dom
 > + react-router-config
+> + redux
+> + redux-thunk
+> + redux-immutable
+> + react-redux
+> + immutable
 
 ```
-cnpm install styled-components react-router react-router-dom react-router-config --save
+cnpm install styled-components react-router react-router-dom react-router-config redux redux-thunk redux-immutable react-redux immutable --save
 ```
 
 #### 开发环境
